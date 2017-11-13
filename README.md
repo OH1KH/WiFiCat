@@ -20,20 +20,21 @@ Folders:
 
 CW paddles, dit and dah:
 	
-	When ESP starts it blinks it's led 2 times "CW - i". 
-	After that push the paddle that you want dots from. 
-	Few seconds later "CW - R" is blinked to infor that paddle setting time is over. 
+	When WiFiCat starts it blinks it's led 2 times "CW - i".
+	After that push the paddle that you want to get dots from. 
+	Few seconds later "CW - R" is blinked to inform that paddle setting time is over. 
 	Paddle state is written to eprom, so you do not need to do this always.
         
 WiFi setup:
 
 	After that several long blinks "CW T-T-T-T-T" is blinked.
-	If you need to set up WiFi push both paddles down. Blinking stops and led stays on.
+	If you need to set up WiFi netwok connection push both paddles down. Blinking stops and led stays on.
 	Now you have 3 minutes time to connect open network "TS50" and open browser 
-	http://192.168.4.1 to get into WiFi setup page.
+	Go to http://192.168.4.1 to get into WiFi setup page. Firefox can detect setup page and
+	offers button for moving sign up page.
 	There you can connect to existing WiFi network and save settings to eeprom. 
 	If you do not have WiFi at all you can use WiFiCat from default address 192.168.4.1.
-	If your WiFi network has changed or you do not have network any more do "reset" 
+	If your WiFi network has changed or you do not have network at all any more do "reset" 
 	and in the case of new wifi network, a new setup.
 
 
