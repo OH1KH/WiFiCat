@@ -1,0 +1,17 @@
+
+TDX from rig to ESP RDX has resistor divider 1.8k/3.3k.  (5V to 3.3V)
+
+As TS50 has internal 470ohms in series with 1.8k it may take 1-state too low.
+
+You can also replace 1.8kresistor with 2x 1N4148 diodes in series.
+
+ TDX rig ----------->|----->|--------+----------rxd ESP
+                                     |
+                                    3k3
+                                     |
+                                    ---
+                                    gnd
+
+This will drop about 1.2V away from 5V logic giving 3.8V to ESP that is acceptable for 3.3V logic.
+I have tested this also and it works.
+

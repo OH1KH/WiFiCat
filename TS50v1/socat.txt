@@ -1,0 +1,7 @@
+
+
+
+rigctld -m201 -r /home/saku/dev/vmodem0 -vvvvv --set-conf=timeout=3000,retry=3
+socat -v -x pty,link=$HOME/dev/vmodem0,raw,echo=0,waitslave tcp:192.168.60.220:50000
+
+while true; do socat pty,link=$HOME/dev/vmodem0,raw,echo=0,waitslave tcp:192.168.60.220:50000; done

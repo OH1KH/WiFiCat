@@ -1,0 +1,139 @@
+Caps dump for model: 201
+Model name:	TS-50s
+Mfg name:	Kenwood
+Backend version:	0.7.1
+Backend copyright:	LGPL
+Backend status:	Untested
+Rig type:	Mobile
+PTT type:	None
+DCD type:	None
+Port type:	RS-232
+Serial speed: 4800..4800 bauds, 8N2 
+Write delay: 20ms, timeout 1000ms, 3 retry
+Post Write delay: 30ms
+Has targetable VFO: N
+Has transceive: Y
+Announce: 0x0
+Max RIT: -0.0kHz/+0.0kHz
+Max XIT: -0.0kHz/+0.0kHz
+Max IF-SHIFT: -0.0kHz/+0.0kHz
+Preamp: 10dB
+Attenuator: 20dB
+CTCSS: None
+DCS: None
+Get functions: 
+Set functions: 
+Get level: 
+Set level: 
+Extra levels:
+Get parameters: 
+Set parameters: 
+Extra parameters:
+Mode list: AM CW USB LSB FM 
+VFO list: MEM VFOA VFOB 
+VFO Ops: 
+Scan Ops: 
+Number of banks:	0
+Memory name desc size:	0
+Memories: None
+TX ranges status, region 1:	OK (0)
+RX ranges status, region 1:	OK (0)
+TX ranges status, region 2:	OK (0)
+RX ranges status, region 2:	OK (0)
+Tuning steps:
+	1 Hz:   	CW USB LSB 
+	10 Hz:   	AM CW USB LSB FM
+	100 Hz:   	AM CW USB LSB FM 
+	1 kHz:   	AM CW USB LSB FM 
+	5 kHz:   	AM CW USB LSB FM 
+	9 kHz:   	AM CW USB LSB FM 
+	10 kHz:   	AM CW USB LSB FM 
+	12.5 kHz:   	AM CW USB LSB FM 
+	20 kHz:   	AM CW USB LSB FM 
+	25 kHz:   	AM CW USB LSB FM 
+	100 kHz:   	AM CW USB LSB FM 
+	1 MHz:   	AM FM 
+Tuning steps status:	OK (0)
+Filters:
+	2.4 kHz:   	CW USB LSB  
+	8 kHz:   	AM 
+	2.4 kHz:   	AM 
+	15 kHz:   	FM 
+	8 kHz:   	FM 
+	230 kHz:   	WFM 
+Bandwidths:
+	AM	Normal: 8 kHz,	Narrow: 2.4 kHz,	Wide: 0 Hz
+	CW	Normal: 2.4 kHz,	Narrow: 0 Hz,	Wide: 0 Hz
+	USB	Normal: 2.4 kHz,	Narrow: 0 Hz,	Wide: 0 Hz
+	LSB	Normal: 2.4 kHz,	Narrow: 0 Hz,	Wide: 0 Hz
+	FM	Normal: 15 kHz,	Narrow: 8 kHz,	Wide: 0 Hz
+Has priv data:	Y
+Has Init:	N
+Has Cleanup:	N
+Has Open:	N
+Has Close:	N
+Can set Conf:	N
+Can get Conf:	N
+Can set Frequency:	Y
+Can get Frequency:	Y
+Can set Mode:	Y
+Can get Mode:	Y
+Can set VFO:	Y
+Can get VFO:	Y
+Can set PTT:	Y
+Can get PTT:	Y
+Can get DCD:	N
+Can set Repeater Duplex:	N
+Can get Repeater Duplex:	N
+Can set Repeater Offset:	N
+Can get Repeater Offset:	N
+Can set Split Freq:	Y
+Can get Split Freq:	Y
+Can set Split Mode:	Y
+Can get Split Mode:	Y
+Can set Split VFO:	Y
+Can get Split VFO:	Y
+Can set Tuning Step:	N
+Can get Tuning Step:	N
+Can set RIT:	N
+Can get RIT:	N
+Can set XIT:	N
+Can get XIT:	N
+Can set CTCSS:	N
+Can get CTCSS:	N
+Can set DCS:	N
+Can get DCS:	N
+Can set CTCSS Squelch:	N
+Can get CTCSS Squelch:	N
+Can set DCS Squelch:	N
+Can get DCS Squelch:	N
+Can set Power Stat:	N
+Can get Power Stat:	N
+Can Reset:	N
+Can get Ant:	N
+Can set Ant:	N
+Can set Transceive:	E
+Can get Transceive:	N
+Can set Func:	N
+Can get Func:	N
+Can set Level:	N
+Can get Level:	N
+Can set Param:	N
+Can get Param:	N
+Can send DTMF:	N
+Can recv DTMF:	N
+Can send Morse:	N
+Can decode Events:	Y
+Can set Bank:	N
+Can set Mem:	Y
+Can get Mem:	N
+Can set Channel:	E
+Can get Channel:	E
+Can ctl Mem/VFO:	Y
+Can Scan:	N
+Can get Info:	N
+Can get power2mW:	N
+Can get mW2power:	N
+
+Overall backend warnings: 0
+RPRT 0
