@@ -33,8 +33,8 @@ WiFi setup:
 	Go to http://192.168.4.1 to get into WiFi setup page. Firefox can detect setup page and
 	offers button for moving sign up page.
 	There you can connect to existing WiFi network and save settings to eeprom. 
-	If you do not have WiFi at all you can use WiFiCat from default address 192.168.4.1.
-	If your WiFi network has changed or you do not have network at all any more do "reset" 
+	If you do not have WiFi network at all you can use WiFiCat as accesspoint from default address 192.168.4.1.
+	If your WiFi network has changed since last setup or you do not have network at all any more do "reset" 
 	and in the case of new wifi network, a new setup.
 
 
