@@ -126,15 +126,17 @@ TS50v2:
 
 
 TS50v3:
+
 	Generates only own accesspoint, not able to connct exisiting WiFi networks. (for portable use only, perhaps)
 	CW keyer has 2 memories stored in EEPROM.
 	CW speed is controlled via potentiometer.
 	Some "KY" based commands to modify and send memories or plain text in CW. (Not passed to rig)
 	Connection to rig CAT is done either via UDP or TCP at 192.168.4.1 port 4535 using raw data mode.
-	(udp/tcp 2 serial)
+	(udp/tcp 2 serial).
 
         If UDP link to rig is used then has also Web server (with captive dns) to set memories and paddle order.
-        Handy in expeditions using smart phone's WiFi connect,
+        Handy in expeditions using smart phone's WiFi connect.
+
         If TCP is used then no Web server can be used (ESP12 property) but CW memories can be modified
         with "KY"-commands.
 
