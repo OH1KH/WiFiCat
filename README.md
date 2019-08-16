@@ -14,7 +14,7 @@ Folders:
 
 	TS50v1 - based on serial2tcp version
 	TS50v2 - based on rigctld emulation
-	TS50v1 - based on serial2tcp or serial2udp version. With UDP has also WEBserver
+	TS50v3 - based on serial2tcp or serial2udp version. With UDP has also WEBserver
 	doc    - some documents
 	ISR_CW - first try to make ISR based iambic keyer.
 
