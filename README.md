@@ -83,6 +83,8 @@ TS50v1:
 	
 	Do same kind of pseudo port for CW interface with console command: 
 	socat -v -x pty,link=$HOME/dev/vmodem1,raw,echo=0,waitslave tcp:xxx.xxx.xxx.xxx:50001
+
+        (Replace line's "tcp" with "udp" if using v3 version and UDP in selected. See below.)
 	
 	These pseudo ports close when program quits. If you need "always ready" ports 
 	use "while loop" console command:
@@ -123,11 +125,28 @@ TS50v2:
 	and makes funny checks all the time that makes receiving impossible.
 
 
+TS50v3:
+	Generates only own accesspoint, not able to connct exisiting WiFi networks. (for portable use only, perhaps)
+	CW keyer has 2 memories stored in EEPROM.
+	CW speed is controlled via potentiometer.
+	Some "KY" based commands to modify and send memories or plain text in CW. (Not passed to rig)
+	Connection to rig CAT is done either via UDP or TCP at 192.168.4.1 port 4535 using raw data mode.
+	(udp/tcp 2 serial)
+
+        If UDP link to rig is used then has also Web server (with captive dns) to set memories and paddle order.
+        Handy in expeditions using smart phone's WiFi connect,
+        If TCP is used then no Web server can be used (ESP12 property) but CW memories can be modified
+        with "KY"-commands.
+
+        Paddle order can always be set (stored in EEPROM) also by pressing paddle that should be the "dit"-one
+        at powerup after ESP's internal led blinks 2 times.
+
 TODO:
 
-	For both programs: Make ISR based CW.
+	For all programs: Make better ISR based CW.
 	Now rig polling will interrupt iambic keying. And Text to CW commands will stop rig 
 	polling during CW output. Bad!
+	Perhaps integrating to ESP32.
 
 
 
